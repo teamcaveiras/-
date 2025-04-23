@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Team Caveiras</title>
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="profile-pic">
+        <img src="profile.jpg" alt="Foto da ONG">
+      </div>
+      <h1>Team Caveiras</h1>
+      <p>Transformando vidas através de ações sociais</p>
+      <a href="https://instagram.com/teamcaveiras" class="btn" target="_blank">Siga-nos no Instagram</a>
+      <a href="#sobre" class="btn btn-secondary">Saiba Mais</a>
+    </div>
+  </header>
+
+  <section id="sobre">
+    <div class="container">
+      <h2>Sobre Nós</h2>
+      <p>O Team Caveiras é uma ONG dedicada a ajudar comunidades carentes através de projetos sociais e educacionais. Nosso objetivo é criar um impacto positivo na sociedade.</p>
+      <div class="carrossel">
+        <div class="slides">
+          <div class="slide"><img src="assets/foto1.jpg" alt="Foto 1"></div>
+          <div class="slide"><img src="assets/foto2.jpg" alt="Foto 2"></div>
+          <div class="slide"><img src="assets/foto3.jpg" alt="Foto 3"></div>
+          <div class="slide"><img src="assets/foto4.jpg" alt="Foto 4"></div>
+          <div class="slide"><img src="assets/foto5.jpg" alt="Foto 5"></div>
+          <div class="slide"><img src="assets/foto6.jpg" alt="Foto 6"></div>
+        </div>
+        <button class="carrossel-btn anterior" onclick="mudarSlide(-1)">&#10094;</button>
+        <button class="carrossel-btn proximo" onclick="mudarSlide(1)">&#10095;</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="projetos">
+    <div class="container">
+      <h2>Nossos Projetos</h2>
+      <div class="highlights-grid">
+        <div class="highlight">
+          <i class="fas fa-book"></i>
+          <h3>Projeto capacita</h3>
+          <p>Promovemos educação de qualidade para crianças e jovens.</p>
+        </div>
+        <div class="highlight">
+          <i class="fas fa-utensils"></i>
+          <h3>Projeto Alimentação</h3>
+          <p>Distribuímos alimentos para famílias em situação de vulnerabilidade.</p>
+        </div>
+        <div class="highlight">
+          <i class="fas fa-heartbeat"></i>
+          <h3>Projeto Saúde</h3>
+          <p>Oferecemos atendimento médico e campanhas de vacinação.</p>
+        </div>
+        <div class="highlight">
+          <i class="fas fa-home"></i>
+          <h3>Caveiras Kids</h3>
+          <p>Ajudamos na construção de moradias para famílias carentes.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contato">
+    <div class="container">
+      <h2>Redes Sociais</h2>
+      <div class="social-links">
+        <a href="https://instagram.com/teamcaveiras" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-whatsapp"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 @teamcaveiras. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
